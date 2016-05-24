@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		438D66891CF4757E00BB6001 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 438D66881CF4757E00BB6001 /* main.m */; };
+		438D668C1CF4757E00BB6001 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 438D668B1CF4757E00BB6001 /* AppDelegate.m */; };
+		438D668F1CF4757E00BB6001 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438D668E1CF4757E00BB6001 /* ViewController.m */; };
+		438D66921CF4757E00BB6001 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438D66901CF4757E00BB6001 /* Main.storyboard */; };
+		438D66941CF4757E00BB6001 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 438D66931CF4757E00BB6001 /* Assets.xcassets */; };
+		438D66971CF4757E00BB6001 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 438D66951CF4757E00BB6001 /* LaunchScreen.storyboard */; };
+		438D66A21CF4757E00BB6001 /* WHURefreshHelperTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438D66A11CF4757E00BB6001 /* WHURefreshHelperTests.m */; };
+		438D66AD1CF4757E00BB6001 /* WHURefreshHelperUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 438D66AC1CF4757E00BB6001 /* WHURefreshHelperUITests.m */; };
+		438D66E31CF4845F00BB6001 /* FBKVOController.m in Sources */ = {isa = PBXBuildFile; fileRef = 438D66E21CF4845F00BB6001 /* FBKVOController.m */; };
+		4399E1CD1CF48F10000BC315 /* WHURefreshClassicItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4399E1C31CF48F10000BC315 /* WHURefreshClassicItem.m */; };
+		4399E1CE1CF48F10000BC315 /* WHURefreshClassicItem.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4399E1C41CF48F10000BC315 /* WHURefreshClassicItem.xib */; };
+		4399E1CF1CF48F10000BC315 /* WHURefreshItemSubClass.m in Sources */ = {isa = PBXBuildFile; fileRef = 4399E1C61CF48F10000BC315 /* WHURefreshItemSubClass.m */; };
+		4399E1D01CF48F10000BC315 /* WHURefreshArrow@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4399E1C81CF48F10000BC315 /* WHURefreshArrow@2x.png */; };
+		4399E1D11CF48F10000BC315 /* WHURefreshView.m in Sources */ = {isa = PBXBuildFile; fileRef = 4399E1CA1CF48F10000BC315 /* WHURefreshView.m */; };
+		4399E1D41CF49400000BC315 /* ViewController2.m in Sources */ = {isa = PBXBuildFile; fileRef = 4399E1D31CF49400000BC315 /* ViewController2.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		438D669E1CF4757E00BB6001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438D667C1CF4757E00BB6001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438D66831CF4757E00BB6001;
+			remoteInfo = WHURefreshHelper;
+		};
+		438D66A91CF4757E00BB6001 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 438D667C1CF4757E00BB6001 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438D66831CF4757E00BB6001;
+			remoteInfo = WHURefreshHelper;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		438D66841CF4757E00BB6001 /* WHURefreshHelper.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = WHURefreshHelper.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		438D66881CF4757E00BB6001 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		438D668A1CF4757E00BB6001 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		438D668B1CF4757E00BB6001 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		438D668D1CF4757E00BB6001 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		438D668E1CF4757E00BB6001 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		438D66911CF4757E00BB6001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		438D66931CF4757E00BB6001 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		438D66961CF4757E00BB6001 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		438D66981CF4757E00BB6001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438D669D1CF4757E00BB6001 /* WHURefreshHelperTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHURefreshHelperTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438D66A11CF4757E00BB6001 /* WHURefreshHelperTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHURefreshHelperTests.m; sourceTree = "<group>"; };
+		438D66A31CF4757E00BB6001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438D66A81CF4757E00BB6001 /* WHURefreshHelperUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WHURefreshHelperUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		438D66AC1CF4757E00BB6001 /* WHURefreshHelperUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = WHURefreshHelperUITests.m; sourceTree = "<group>"; };
+		438D66AE1CF4757E00BB6001 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		438D66E11CF4845F00BB6001 /* FBKVOController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FBKVOController.h; sourceTree = "<group>"; };
+		438D66E21CF4845F00BB6001 /* FBKVOController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FBKVOController.m; sourceTree = "<group>"; };
+		4399E1C21CF48F10000BC315 /* WHURefreshClassicItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHURefreshClassicItem.h; sourceTree = "<group>"; };
+		4399E1C31CF48F10000BC315 /* WHURefreshClassicItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHURefreshClassicItem.m; sourceTree = "<group>"; };
+		4399E1C41CF48F10000BC315 /* WHURefreshClassicItem.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = WHURefreshClassicItem.xib; sourceTree = "<group>"; };
+		4399E1C51CF48F10000BC315 /* WHURefreshItemSubClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHURefreshItemSubClass.h; sourceTree = "<group>"; };
+		4399E1C61CF48F10000BC315 /* WHURefreshItemSubClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHURefreshItemSubClass.m; sourceTree = "<group>"; };
+		4399E1C81CF48F10000BC315 /* WHURefreshArrow@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "WHURefreshArrow@2x.png"; sourceTree = "<group>"; };
+		4399E1C91CF48F10000BC315 /* WHURefreshView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHURefreshView.h; sourceTree = "<group>"; };
+		4399E1CA1CF48F10000BC315 /* WHURefreshView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WHURefreshView.m; sourceTree = "<group>"; };
+		4399E1CC1CF48F10000BC315 /* WHURefreshViewDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WHURefreshViewDelegate.h; sourceTree = "<group>"; };
+		4399E1D21CF49400000BC315 /* ViewController2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController2.h; sourceTree = "<group>"; };
+		4399E1D31CF49400000BC315 /* ViewController2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController2.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		438D66811CF4757E00BB6001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438D669A1CF4757E00BB6001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438D66A51CF4757E00BB6001 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		438D667B1CF4757E00BB6001 = {
+			isa = PBXGroup;
+			children = (
+				438D66861CF4757E00BB6001 /* WHURefreshHelper */,
+				438D66A01CF4757E00BB6001 /* WHURefreshHelperTests */,
+				438D66AB1CF4757E00BB6001 /* WHURefreshHelperUITests */,
+				438D66851CF4757E00BB6001 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		438D66851CF4757E00BB6001 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				438D66841CF4757E00BB6001 /* WHURefreshHelper.app */,
+				438D669D1CF4757E00BB6001 /* WHURefreshHelperTests.xctest */,
+				438D66A81CF4757E00BB6001 /* WHURefreshHelperUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		438D66861CF4757E00BB6001 /* WHURefreshHelper */ = {
+			isa = PBXGroup;
+			children = (
+				4399E1C01CF48F10000BC315 /* kit */,
+				438D66E01CF4845F00BB6001 /* FBKVO */,
+				438D668A1CF4757E00BB6001 /* AppDelegate.h */,
+				438D668B1CF4757E00BB6001 /* AppDelegate.m */,
+				438D668D1CF4757E00BB6001 /* ViewController.h */,
+				438D668E1CF4757E00BB6001 /* ViewController.m */,
+				4399E1D21CF49400000BC315 /* ViewController2.h */,
+				4399E1D31CF49400000BC315 /* ViewController2.m */,
+				438D66901CF4757E00BB6001 /* Main.storyboard */,
+				438D66931CF4757E00BB6001 /* Assets.xcassets */,
+				438D66951CF4757E00BB6001 /* LaunchScreen.storyboard */,
+				438D66981CF4757E00BB6001 /* Info.plist */,
+				438D66871CF4757E00BB6001 /* Supporting Files */,
+			);
+			path = WHURefreshHelper;
+			sourceTree = "<group>";
+		};
+		438D66871CF4757E00BB6001 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				438D66881CF4757E00BB6001 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		438D66A01CF4757E00BB6001 /* WHURefreshHelperTests */ = {
+			isa = PBXGroup;
+			children = (
+				438D66A11CF4757E00BB6001 /* WHURefreshHelperTests.m */,
+				438D66A31CF4757E00BB6001 /* Info.plist */,
+			);
+			path = WHURefreshHelperTests;
+			sourceTree = "<group>";
+		};
+		438D66AB1CF4757E00BB6001 /* WHURefreshHelperUITests */ = {
+			isa = PBXGroup;
+			children = (
+				438D66AC1CF4757E00BB6001 /* WHURefreshHelperUITests.m */,
+				438D66AE1CF4757E00BB6001 /* Info.plist */,
+			);
+			path = WHURefreshHelperUITests;
+			sourceTree = "<group>";
+		};
+		438D66E01CF4845F00BB6001 /* FBKVO */ = {
+			isa = PBXGroup;
+			children = (
+				438D66E11CF4845F00BB6001 /* FBKVOController.h */,
+				438D66E21CF4845F00BB6001 /* FBKVOController.m */,
+			);
+			name = FBKVO;
+			path = ../../FBKVO;
+			sourceTree = "<group>";
+		};
+		4399E1C01CF48F10000BC315 /* kit */ = {
+			isa = PBXGroup;
+			children = (
+				4399E1C11CF48F10000BC315 /* refreshItem */,
+				4399E1C71CF48F10000BC315 /* resource */,
+				4399E1C91CF48F10000BC315 /* WHURefreshView.h */,
+				4399E1CA1CF48F10000BC315 /* WHURefreshView.m */,
+				4399E1CC1CF48F10000BC315 /* WHURefreshViewDelegate.h */,
+			);
+			name = kit;
+			path = ../../kit;
+			sourceTree = "<group>";
+		};
+		4399E1C11CF48F10000BC315 /* refreshItem */ = {
+			isa = PBXGroup;
+			children = (
+				4399E1C51CF48F10000BC315 /* WHURefreshItemSubClass.h */,
+				4399E1C61CF48F10000BC315 /* WHURefreshItemSubClass.m */,
+				4399E1C21CF48F10000BC315 /* WHURefreshClassicItem.h */,
+				4399E1C31CF48F10000BC315 /* WHURefreshClassicItem.m */,
+				4399E1C41CF48F10000BC315 /* WHURefreshClassicItem.xib */,
+			);
+			path = refreshItem;
+			sourceTree = "<group>";
+		};
+		4399E1C71CF48F10000BC315 /* resource */ = {
+			isa = PBXGroup;
+			children = (
+				4399E1C81CF48F10000BC315 /* WHURefreshArrow@2x.png */,
+			);
+			path = resource;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		438D66831CF4757E00BB6001 /* WHURefreshHelper */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438D66B11CF4757E00BB6001 /* Build configuration list for PBXNativeTarget "WHURefreshHelper" */;
+			buildPhases = (
+				438D66801CF4757E00BB6001 /* Sources */,
+				438D66811CF4757E00BB6001 /* Frameworks */,
+				438D66821CF4757E00BB6001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WHURefreshHelper;
+			productName = WHURefreshHelper;
+			productReference = 438D66841CF4757E00BB6001 /* WHURefreshHelper.app */;
+			productType = "com.apple.product-type.application";
+		};
+		438D669C1CF4757E00BB6001 /* WHURefreshHelperTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438D66B41CF4757E00BB6001 /* Build configuration list for PBXNativeTarget "WHURefreshHelperTests" */;
+			buildPhases = (
+				438D66991CF4757E00BB6001 /* Sources */,
+				438D669A1CF4757E00BB6001 /* Frameworks */,
+				438D669B1CF4757E00BB6001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438D669F1CF4757E00BB6001 /* PBXTargetDependency */,
+			);
+			name = WHURefreshHelperTests;
+			productName = WHURefreshHelperTests;
+			productReference = 438D669D1CF4757E00BB6001 /* WHURefreshHelperTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		438D66A71CF4757E00BB6001 /* WHURefreshHelperUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 438D66B71CF4757E00BB6001 /* Build configuration list for PBXNativeTarget "WHURefreshHelperUITests" */;
+			buildPhases = (
+				438D66A41CF4757E00BB6001 /* Sources */,
+				438D66A51CF4757E00BB6001 /* Frameworks */,
+				438D66A61CF4757E00BB6001 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				438D66AA1CF4757E00BB6001 /* PBXTargetDependency */,
+			);
+			name = WHURefreshHelperUITests;
+			productName = WHURefreshHelperUITests;
+			productReference = 438D66A81CF4757E00BB6001 /* WHURefreshHelperUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		438D667C1CF4757E00BB6001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Mitty;
+				TargetAttributes = {
+					438D66831CF4757E00BB6001 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					438D669C1CF4757E00BB6001 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 438D66831CF4757E00BB6001;
+					};
+					438D66A71CF4757E00BB6001 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 438D66831CF4757E00BB6001;
+					};
+				};
+			};
+			buildConfigurationList = 438D667F1CF4757E00BB6001 /* Build configuration list for PBXProject "WHURefreshHelper" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 438D667B1CF4757E00BB6001;
+			productRefGroup = 438D66851CF4757E00BB6001 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				438D66831CF4757E00BB6001 /* WHURefreshHelper */,
+				438D669C1CF4757E00BB6001 /* WHURefreshHelperTests */,
+				438D66A71CF4757E00BB6001 /* WHURefreshHelperUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		438D66821CF4757E00BB6001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4399E1D01CF48F10000BC315 /* WHURefreshArrow@2x.png in Resources */,
+				438D66971CF4757E00BB6001 /* LaunchScreen.storyboard in Resources */,
+				438D66941CF4757E00BB6001 /* Assets.xcassets in Resources */,
+				4399E1CE1CF48F10000BC315 /* WHURefreshClassicItem.xib in Resources */,
+				438D66921CF4757E00BB6001 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438D669B1CF4757E00BB6001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438D66A61CF4757E00BB6001 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		438D66801CF4757E00BB6001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438D668F1CF4757E00BB6001 /* ViewController.m in Sources */,
+				4399E1D11CF48F10000BC315 /* WHURefreshView.m in Sources */,
+				438D668C1CF4757E00BB6001 /* AppDelegate.m in Sources */,
+				4399E1CD1CF48F10000BC315 /* WHURefreshClassicItem.m in Sources */,
+				4399E1CF1CF48F10000BC315 /* WHURefreshItemSubClass.m in Sources */,
+				4399E1D41CF49400000BC315 /* ViewController2.m in Sources */,
+				438D66E31CF4845F00BB6001 /* FBKVOController.m in Sources */,
+				438D66891CF4757E00BB6001 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438D66991CF4757E00BB6001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438D66A21CF4757E00BB6001 /* WHURefreshHelperTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		438D66A41CF4757E00BB6001 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				438D66AD1CF4757E00BB6001 /* WHURefreshHelperUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		438D669F1CF4757E00BB6001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438D66831CF4757E00BB6001 /* WHURefreshHelper */;
+			targetProxy = 438D669E1CF4757E00BB6001 /* PBXContainerItemProxy */;
+		};
+		438D66AA1CF4757E00BB6001 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 438D66831CF4757E00BB6001 /* WHURefreshHelper */;
+			targetProxy = 438D66A91CF4757E00BB6001 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		438D66901CF4757E00BB6001 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438D66911CF4757E00BB6001 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		438D66951CF4757E00BB6001 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				438D66961CF4757E00BB6001 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		438D66AF1CF4757E00BB6001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		438D66B01CF4757E00BB6001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		438D66B21CF4757E00BB6001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WHURefreshHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Disney.WHURefreshHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		438D66B31CF4757E00BB6001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = WHURefreshHelper/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Disney.WHURefreshHelper;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		438D66B51CF4757E00BB6001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WHURefreshHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Disney.WHURefreshHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHURefreshHelper.app/WHURefreshHelper";
+			};
+			name = Debug;
+		};
+		438D66B61CF4757E00BB6001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = WHURefreshHelperTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Disney.WHURefreshHelperTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/WHURefreshHelper.app/WHURefreshHelper";
+			};
+			name = Release;
+		};
+		438D66B81CF4757E00BB6001 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WHURefreshHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Disney.WHURefreshHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WHURefreshHelper;
+			};
+			name = Debug;
+		};
+		438D66B91CF4757E00BB6001 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = WHURefreshHelperUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = Disney.WHURefreshHelperUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = WHURefreshHelper;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		438D667F1CF4757E00BB6001 /* Build configuration list for PBXProject "WHURefreshHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438D66AF1CF4757E00BB6001 /* Debug */,
+				438D66B01CF4757E00BB6001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438D66B11CF4757E00BB6001 /* Build configuration list for PBXNativeTarget "WHURefreshHelper" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438D66B21CF4757E00BB6001 /* Debug */,
+				438D66B31CF4757E00BB6001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438D66B41CF4757E00BB6001 /* Build configuration list for PBXNativeTarget "WHURefreshHelperTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438D66B51CF4757E00BB6001 /* Debug */,
+				438D66B61CF4757E00BB6001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		438D66B71CF4757E00BB6001 /* Build configuration list for PBXNativeTarget "WHURefreshHelperUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				438D66B81CF4757E00BB6001 /* Debug */,
+				438D66B91CF4757E00BB6001 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 438D667C1CF4757E00BB6001 /* Project object */;
+}
